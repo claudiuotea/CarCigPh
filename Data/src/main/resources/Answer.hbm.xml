@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Domain.Raspuns"
+           table="Raspuns">
+        <id name="id" column="IdRaspuns">
+            <generator class="increment"/>
+        </id>
+        <property name="tigari" column="Tigari"></property>
+        <property name="masina" column="Masina"></property>
+        <property name="telefon" column="Telefon"></property>
+        <property name="points" column="Points"></property>
+        <property name="username" column="Username"></property>
+    </class>
+</hibernate-mapping>

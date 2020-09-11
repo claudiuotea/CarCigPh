@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="examen2" uuid="f193fb2f-9a73-427f-9d24-b4798bd5ed0d">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\Anul2\Semestrul2\Medii de proiectare si programare\Examen\examen2.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Game" uuid="e1ef6987-e5f9-4637-87e7-5af50d568807">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\Anul2\Semestrul2\Medii de proiectare si programare\Examen\Game.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

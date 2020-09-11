@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Domain.User"
+           table="User">
+        <id name="idUser" column="IdUser">
+            <generator class="increment"/>
+        </id>
+        <property name="username" column="Username"></property>
+        <property name="password" column="Password"></property>
+        <property name="score" column="Score"></property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainController">
+   <children>
+      <TextField fx:id="masinaText" layoutX="180.0" layoutY="175.0" visible="false" />
+      <TextField fx:id="telefonText" layoutX="180.0" layoutY="225.0" visible="false" />
+      <TextField fx:id="tigariText" layoutX="180.0" layoutY="271.0" visible="false" />
+      <Button fx:id="startButton" layoutX="229.0" layoutY="78.0" mnemonicParsing="false" onAction="#startGame" text="Start Game" />
+      <Label layoutX="126.0" layoutY="179.0" text="Masina" />
+      <Label layoutX="126.0" layoutY="229.0" text="Telefon" />
+      <Label layoutX="126.0" layoutY="275.0" text="Tigari" />
+      <Button layoutX="128.0" layoutY="316.0" mnemonicParsing="false" onAction="#sendAnswer" text="Answer" />
+      <Label fx:id="letterLabel" layoutX="124.0" layoutY="26.0" text="Label" visible="false" />
+      <Label fx:id="punctajLabel" layoutX="135.0" layoutY="349.0" prefHeight="41.0" prefWidth="204.0" text="Punctaj:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
