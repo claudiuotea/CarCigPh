@@ -1,0 +1,2 @@
+# CarCigPh
+Created for the sake of learning. A small minigame like "trivia" created with Java SpringRemote + hibernate where you receive a letter and have to guess a phone brand, a car brand and a cigarette brand. If the answer is unique (not found on other players) and is correct you receive the maximum points [10 * (number of players - 1)]. For each player that have the same answer with you, you will have -10 points.
